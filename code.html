@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PODs e Cigarros Eletrônicos: Riscos à Saúde</title>
+    <style>
+        :root {
+            --primary: #4a6fdc;
+            --danger: #dc3545;
+            --dark: #2c3e50;
+            --light: #f8f9fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--dark), var(--primary));
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .card h2 {
+            color: var(--dark);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary);
+        }
+        
+        .warning {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        
+        .dangers {
+            background-color: #f8d7da;
+            border-left: 4px solid var(--danger);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        ul {
+            padding-left: 2rem;
+            margin: 1rem 0;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .fact-box {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .fact-box h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .fact-box .number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--danger);
+            margin: 1rem 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: #3a5bbf;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-danger {
+            background-color: var(--danger);
+        }
+        
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>PODs e Cigarros Eletrônicos: Conheça os Riscos</h1>
+            <p>Informações baseadas em evidências científicas sobre os perigos do vaping para a saúde</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <h2>O que são PODs e Cigarros Eletrônicos?</h2>
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/396349b0-464f-4f14-b108-8f4fbe47ade5.png" alt="Dispositivos de vaping diversos incluindo PODs e cigarros eletrônicos mostrados em uma mesa" />
+            
+            <p>Os cigarros eletrônicos, também conhecidos como e-cigarettes, vapes ou PODs, são dispositivos que funcionam com bateria e vaporizam um líquido que pode conter nicotina, aromatizantes e outras substâncias químicas.</p>
+            
+            <div class="warning">
+                <p>Apesar de serem muitas vezes comercializados como alternativa "segura" ao cigarro tradicional, esses dispositivos apresentam riscos significativos à saúde e podem causar dependência.</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Componentes e Substâncias Perigosas</h2>
+            
+            <div class="grid">
+                <div class="fact-box">
+                    <h3>Nicotina</h3>
+                    <div class="number">95%</div>
+                    <p>dos líquidos para vape contém nicotina, mesmo quando alegam ser "sem nicotina"</p>
+                </div>
+                
+                <div class="fact-box">
+                    <h3>Substâncias Tóxicas</h3>
+                    <div class="number">+60</div>
+                    <p>compostos químicos nocivos podem ser encontrados no vapor</p>
+                </div>
+                
+                <div class="fact-box">
+                    <h3>Metais Pesados</h3>
+                    <div class="number">5x</div>
+                    <p>mais chumbo e outros metais que o cigarro tradicional</p>
+                </div>
+            </div>
+            
+            <p>O líquido do vape contém:</p>
+            <ul>
+                <li><strong>Nicotina</strong> - altamente viciante e prejudicial ao desenvolvimento cerebral em jovens</li>
+                <li><strong>Propilenoglicol e Glicerina Vegetal</strong> - quando aquecidos formam substâncias cancerígenas</li>
+                <li><strong>Aromatizantes</strong> - muitos não foram testados para inalação e podem causar danos pulmonares</li>
+                <li><strong>Metais pesados</strong> - como níquel, chumbo e cromo provenientes das resistências</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>Riscos para a Saúde</h2>
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4891bc51-0149-42eb-bdf5-ddc90be07493.png" alt="Comparação lado a lado de pulmão saudável e pulmão com lesões causadas pelo vaping" />
+            
+            <div class="dangers warning">
+                <h3>EVALI - Lesão Pulmonar Associada ao Vaping</h3>
+                <p>Entre 2019-2020, foram registrados mais de 2.800 casos de lesão pulmonar grave associada ao vaping apenas nos EUA, com 68 mortes confirmadas.</p>
+            </div>
+            
+            <p>Principais riscos à saúde:</p>
+            <ul>
+                <li>Dependência de nicotina (mesmo nos PODs descartáveis)</li>
+                <li>Inflamação pulmonar e redução da capacidade respiratória</li>
+                <li>Aumento do risco de doenças cardiovasculares</li>
+                <li>Danos ao desenvolvimento cerebral em adolescentes</li>
+                <li>Exposição a substâncias cancerígenas</li>
+                <li>Explosão de baterias causando queimaduras graves</li>
+            </ul>
+            
+            <h3 style="margin-top: 1.5rem;">Tabagismo entre Jovens</h3>
+            <p>Os aromas doces e frutados dos PODs estão levando ao aumento alarmante do tabagismo entre adolescentes. Pesquisas mostram que jovens que usam cigarros eletrônicos têm 4 vezes mais chance de passar a fumar cigarro tradicional.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Como Buscar Ajuda</h2>
+            <p>Se você ou alguém que você conhece está tentando parar de usar cigarros eletrônicos, existem recursos disponíveis:</p>
+            
+            <div style="margin: 2rem 0; text-align: center;">
+                <a href="#" class="btn">Ligue para o Disque Saúde (136)</a>
+                <a href="#" class="btn btn-danger" style="margin-left: 1rem;">Encontre um Centro de Apoio</a>
+            </div>
+            
+            <h3>Dicas para quem quer parar:</h3>
+            <ul>
+                <li><strong>Defina uma data</strong> - escolha um dia para ser seu último dia de uso</li>
+                <li><strong>Identifique gatilhos</strong> - situações que te fazem usar e aprenda a evitá-las</li>
+                <li><strong>Prática exercício físico</strong> - ajuda com a ansiedade e o desejo pelo vape</li>
+                <li><strong>Busque apoio profissional</strong> - médicos podem ajudar com terapias de reposição de nicotina quando necessário</li>
+                <li><strong>Conte com amigos e família</strong> - ter apoio emocional aumenta muito as chances de sucesso</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="logo">Saúde Sem Vaping</div>
+            <p>Este site tem fins estritamente educacionais e não substitui orientação médica profissional.</p>
+            <p>Fontes: OMS, Anvisa, CDC, INCA e Sociedade Brasileira de Pneumologia e Tisiologia.</p>
+            <p style="margin-top: 1rem;">© 2023 Todos os direitos reservados</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Aviso ao carregar a página
+        window.addEventListener('DOMContentLoaded', () => {
+            const cardsDanger = document.querySelectorAll('.card .dangers, .btn-danger');
+            cardsDanger.forEach(element => {
+                element.addEventListener('click', () => {
+                    alert('Se precisar de ajuda para parar de usar cigarros eletrônicos, entre em contato com o Disque Saúde 136 ou consulte um médico.');
+                });
+            });
+            
+            // Botões simulam links (em produção redirecionariam para recursos reais)
+            document.querySelectorAll('.btn').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('Em um site real, este botão redirecionaria para recursos de ajuda específicos. Lembre-se: buscar ajuda profissional aumenta muito as chances de sucesso ao parar de fumar/vaporizar.');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
